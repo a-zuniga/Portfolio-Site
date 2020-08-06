@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "Portfolio site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-zuniga/Portfolio-Site.git"
+  },
+  "author": "a-zuniga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-zuniga/Portfolio-Site/issues"
+  },
+  "homepage": "https://github.com/a-zuniga/Portfolio-Site#readme"
+}
