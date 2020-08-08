@@ -1,6 +1,7 @@
 :root {
   font-size: 16px;
   font-family: "Open Sans";
+  --bg-primary: #23232e;
 }
 
 body {
@@ -11,15 +12,34 @@ body {
 }
 
 main {
-  margin-left: 5rem;
-  padding: 1rem;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .navbar {
-  width: 5rem;
-  height: 100vh;
-  position: fixed;
+  display: grid;
+  grid-template-columns: repeat( 6, 1fr );
+  height: auto;
+  position: static;
   background-color: var(--bg-primary);
+}
+
+.nav-item {
+    padding: 2vh;
+}
+
+#logo {
+    grid-column: 1 / 4;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color:#ddd;
+    text-decoration: none;
 }
 
 
