@@ -1,8 +1,32 @@
-body{
-    background: url("shooting-star.gif");
+:root {
+  font-size: 16px;
+  font-family: "Open Sans";
 }
 
-.wrapper{
-    color: white;
-    text-align: center;
+body {
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-left: 5rem;
+  padding: 1rem;
+}
+
+.navbar {
+  width: 5rem;
+  height: 100vh;
+  position: fixed;
+  background-color: var(--bg-primary);
+}
+
+
+.profile {
+  text-align: center;
+}
+
+hr {
+  color: #ddd;
 }
