@@ -13,7 +13,8 @@
 <body>
     <!-- Navbar -->
     <div class="navbar">
-        <div class="nav-item" id="logo"><a href="/"><span><i class="fa fa-user-circle"></i></span>Alejandro Zuniga</a></div>
+        <div class="nav-item" id="logo"><a href="/"><span><i class="fa fa-user-circle"></i></span>Alejandro Zuniga</a>
+        </div>
         <div class="nav-item"><a href="#about-me"><span><i class="fa fa-address-card"></i></span>About Me</a></div>
         <div class="nav-item"><a href="#resume"><span><i class="fa fa-file"></i></span>Resume</a></div>
         <div class="nav-item"><a href="#projects"><span><i class="fa fa-code"></i></span>Projects</a></div>
@@ -27,8 +28,20 @@
             <div class="profile">
                 <span><img src="facePro.PNG" alt="Professional headshot picture of myself" id="profile-pic"></span>
                 <h1>Alejandro Zuniga</h1>
-                <p>I am a Senior at George Mason University (GMU) majoring in Applied Computer Science with a concentration in
+                <p>I am a Senior at George Mason University (GMU) majoring in Applied Computer Science with a
+                    concentration in
                     Software Engineering.</p>
+
+                <div class="social-icons">
+
+                    <span><a href="https://www.linkedin.com/in/azunigaso/"><img src="linked-in.png" alt="LinkedIn logo"
+                                id="linked-in"></a></span>
+                    <span><a href="https://github.com/a-zuniga"><img src="github.png" alt="Github logo"
+                                id="github"></a></span>
+                    <span><a href="https://volgenau.gmu.edu/"><img src="VSE.jpg"
+                                alt="Logo of the volgenau school of engineering at George Mason University (GMU)"
+                                id="gmu"></a></span>
+                </div>
             </div>
         </section>
 
@@ -46,9 +59,11 @@
 
                 <!-- Interests -->
                 <h3>Interests</h3>
-                <p>I am currently interning at a web development company and so I inherently have a love for web
-                    development. I am also currently working on a mobile app that aims to provide resources for
-                    undocumented students in the state of Virginia.</p>
+                <p>Since the hackathon, I've had a passion for building websites and mobile apps. My end goal is to
+                    become an engineer that builds apps to uplift marginalized communities and grassroots organizations!
+                    The following are a list of things I've found interesting in my development journey, however, since
+                    the world of tech is always changing, it's only right to assume that my interest would also change
+                    with them.</p>
                 <ul>
                     <li>Web Applications Development</li>
                     <li>Mobile Applications Development</li>
@@ -57,35 +72,38 @@
                 </ul>
         </section>
 
-        <!-- Resume -->
-        <section id="resume">
+        <!-- Skills -->
+        <section id="skills">
             <h2>Skills</h2>
             <hr>
             <!-- Programming Languages -->
-            <h3>The following is a range in proficiency levels relative to programming languages I know:</h3>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Python</li>
-                <li>JAVA</li>
-                <li>JavaScript</li>
-                <li>C#</li>
-            </ul>
-            <!-- Other Skills -->
-            <h3>These are other skills I have experience in:</h3>
-            <ul>
-                <li>React JS</li>
-                <li>React Native</li>
-                <li>Sass/Less</li>
-                <li>Gulp</li>
-                <li>Firebase</li>
-                <li>MongoDB</li>
-                <li>AWS</li>
-                <li>etc.</li>
-            </ul>
+            <h3>The following is a range of proficiency levels relative to programming languages I know:</h3>
+            
+            <div class="skills">
+                <li>
+                    <h5>HTML5</h5><span class=bar><span class="html"></span></span>
+                </li>
+                <li>
+                    <h5>CSS3</h5><span class=bar><span class="css"></span></span>
+                </li>
+                <li>
+                    <h5>JavaScript</h5><span class=bar><span class="javascript"></span></span>
+                <li>
+                    <h5>Python</h5><span class=bar><span class="python"></span></span>
+                </li>
+                <li>
+                    <h5>MySQL</h5><span class=bar><span class="mysql"></span></span>
+                </li>
+                <li>
+                    <h5>JAVA</h5><span class=bar><span class="java"></span></span>
+                </li>
+            </div>
+            
             <!-- PDF Resume -->
             <p>For a more comprehensive list of my skills, my resume is attached below!</p>
-            <p>[insert resume here]</p>
+            <a href="Fall2020_updated.pdf" download="Alejandro-Zuniga-Resume" id="resume"><img src="pdf-logo.png" alt="PDF logo"
+                id="pdf"></span></a>
+
         </section>
 
         <!-- Projects -->

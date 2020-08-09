@@ -17,15 +17,169 @@ main {
 
 }
 
+
 main h2 {
     color: var(--bg-primary)
 }
+
+.skills{
+    /* min-width: 30vw; */
+    width: 50%;
+    /* margin: 10vw auto; */
+
+}
+
+@media only screen and (max-width: 600px) {
+    .skills{
+        width: 100%
+    }
+
+    .bar{
+        height: 5vh;
+
+    }
+
+    .bar span{
+        height: 5vh;
+    }
+  }
+.skills li{
+    list-style: none;
+    margin: 20px 0;
+}
+
+.bar{
+    background-color: #ddd;
+    display: block;
+    height: 2vh;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(124, 124, 124)
+}
+
+.bar span{
+    height: 2vh;
+    float: left;
+    background: var(--bg-primary);
+}
+
+.html{
+    width: 90%;
+    animation: html 2s;
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }  
+}
+
+
+.css{
+    width: 50%;
+    animation: css 2s;
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }  
+}
+
+.javascript{
+    width: 60%;
+    animation: javascript 2s;
+}
+
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }  
+}
+
+.python{
+    width: 60%;
+    animation: python 2s;
+}
+
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }  
+}
+
+.mysql{
+    width: 40%;
+    animation: mysql 2s;
+}
+
+@keyframes mysql {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }  
+}
+
+.java{
+    width: 70%;
+    animation: java 2s;
+}
+
+@keyframes java {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }  
+}
+
+#resume {
+    text-decoration: none;
+    color: var(--bg-primary);
+}
+
+#resume img{
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
+
 
 #profile-pic {
     border-radius: 50%;
     width: 100%;
     max-width: 350px;
     height: auto;
+
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #ddd;
+}
+
+.social-icons img {
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+    padding: 1vw;
 }
 
 .navbar {
@@ -70,4 +224,13 @@ main h2 {
 
 hr {
   color: #ddd;
+}
+
+#about-me a{
+    text-decoration: none;
+    color: black;
+}
+
+#about-me a:hover{
+    color: red;
 }
