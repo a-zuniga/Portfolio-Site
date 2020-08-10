@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const PORT = process.env.PORT || 3000;
 
 // Lets express load the files that are in assets
 app.use(express.static(__dirname + '/assets'));
@@ -16,5 +16,5 @@ app.use(function (req, res, next) {
 })
 
 app.listen(port, () => {
-  console.log(`listening at http://localhost:${port}`)
+  console.log(`listening at http://localhost:${PORT}`)
 })
