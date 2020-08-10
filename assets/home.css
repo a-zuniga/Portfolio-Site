@@ -198,6 +198,16 @@ main h2 {
     background: #eee;
 }
 
+.project-list a{
+    text-decoration: none;
+    color: royalblue;
+}
+
+.project-list a:hover{
+
+    color: red;
+}
+
 .projects img{
     width: 100%;
     max-width: 1fr;
@@ -253,7 +263,7 @@ hr {
 
 #about-me a{
     text-decoration: none;
-    color: black;
+    color: royalblue;
 }
 
 #about-me a:hover{
