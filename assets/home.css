@@ -182,6 +182,31 @@ main h2 {
     padding: 1vw;
 }
 
+.projects{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+
+    grid-gap: 3vw;
+    grid-auto-rows: minmax(10vh, auto);
+
+}
+
+.project-list {
+    text-align: center;
+    background: #eee;
+}
+
+.projects img{
+    width: 100%;
+    max-width: 1fr;
+    /* max-height: 50vh; */
+    height: 40vh;
+    /* height: auto; */
+}
+
+
 .navbar {
   display: grid;
   grid-template-columns: repeat( 6, 1fr );
