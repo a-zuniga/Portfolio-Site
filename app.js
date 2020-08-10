@@ -15,6 +15,6 @@ app.use(function (req, res, next) {
   res.status(404).sendFile('404.html', {root : __dirname + '/assets'});
 })
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`listening at http://localhost:${PORT}`)
 })
